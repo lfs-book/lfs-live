@@ -13,7 +13,7 @@ The description is built using Docbook XML. That format is easily converted to H
 * blah
 * blubb
 
-All this tools are described in LFS and BLFS respectively. Since the used tools, the OS which will be on CD and the tools to generate the HTML version of this description are all based on LFS, it is required that the user has a certain amount of knowledeg in building a LFS system.
+All this tools are described in LFS and BLFS respectively. Since the used tools, the OS which will be on CD and the tools to generate the HTML version of this description are all based on LFS, it is required that the user has a certain amount of knowledge in building a LFS system. That means, the user should have run successfully thru the build process of a LFS system and should have built some BLFS packages, too.
 
 ### Installation
 To render the XMLs to HTML, run
