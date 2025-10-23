@@ -23,46 +23,18 @@ make install
 ```
 
 Command Explanations:
-*_SUPPORT: Enable support for various compression libraries and file attributes
-LZ4_SUPPORT=1: Support for the LZ4 compression standard, use this if you want faster speeds at the cost of compression efficency
+*_SUPPORT: Enable support for various compression libraries and file attributes, for this book we'll primarly be recommending ZSTD or XZ.  
+  
+LZ4_SUPPORT=1: Support for the LZ4 compression standard, use this if you want faster speeds at the cost of compression efficency  
 
 
 Contents
 
-Installed Programs: lz mattrib mbadblocks mcat mcd mcheck mcomp mcopy mdel mdeltree mdir mdoctorfat mdu mformat minfo mkmanifest mlabel mmd mmount mmove mpartition mrd mren mshortname mshowfat mtools mtoolstest mtype mxtar mzip tgz uz floopy
+Installed Programs: mksquashfs, sqfscat, sqfstar, unsquashfs
 
-Short Descriptions
-lz: 
-mattrib: 
-mbadblocks: 
-mcat: 
-mcd: 
-mcheck: 
-mcomp: 
-mcopy: 
-mdel: 
-mdeltree: 
-mdir: 
-mdoctorfat: 
-mdu: 
-mformat: 
-minfo: 
-mkmanifest: 
-mlabel: 
-mmd: 
-mmount: 
-mmove: 
-mpartition: 
-mrd: 
-mren: 
-mshortname: 
-mshowfat: 
-mtools: 
-mtoolstest: 
-mtype: 
-mxtar: 
-mzip: 
-tgz: 
-uz: 
-
+Short Descriptions:
+mksquashfs: Make a squashfs from a specific disktop
+unsquashfs: Uncompress a squashfs filesystem to disk
+sqfscat: Cat files from a squashfs filesystem without uncompressing everything. 
+sqfstar: Create a squashfs from a tar file
 
